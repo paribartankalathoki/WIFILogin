@@ -1,0 +1,45 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  border: 1px solid #a2e4c3;
+  padding: 10px;
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  background: ivory;
+  border-radius: 3px;
+}
+.card-title {
+  color: #17a8fd;
+}
+body { 
+  /* The image used */
+  background-image: url("../image/background.jpg");
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: initial;
+  background-size: cover;
+}
+
+
+.card-body {
+    height: 300px;
+    overflow-y: auto;
+}
+span.conditions {
+	padding: 15px;
+}
+.logo-image {
+	margin-top: 40px;
+}
+.btn {
+	float: right;
+	margin-right: 20px;
+}
